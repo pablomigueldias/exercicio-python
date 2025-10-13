@@ -8,3 +8,4 @@ KmRodado = 0.15 * km
 total = valorDias + KmRodado
 
 print(f'Total a pagar no carro alugado é R${total:.2f}')
+ 
