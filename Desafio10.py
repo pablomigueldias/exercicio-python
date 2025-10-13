@@ -5,4 +5,4 @@ dolar =  carteira * 5.53
 
 
 print(f'Voce tem R${carteira}.')
-print(f'Voce pode comprar ${dolar:2f} dolares')
+print(f'Voce pode comprar ${dolar:.2f} dolares')

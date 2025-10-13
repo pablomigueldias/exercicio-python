@@ -4,4 +4,4 @@ salario = float(input(f'Qual é o salario do funcionario? R$ '))
 aumento = salario * 0.15
 total = salario + aumento
 
-print(f'O Salario do funcionario teve 15% de aumento e ficou R${total} reais')
+print(f'O Salario do funcionario teve 15% de aumento e ficou R${total:.2f} reais')

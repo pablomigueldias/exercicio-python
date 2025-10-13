@@ -4,4 +4,4 @@ numero = float(input('Qual é o preço do produto? R$ '))
 desconto = numero * 0.05
 total = numero - desconto
 
-print(f'O produto com 5% de desconto é R${total}')
+print(f'O produto com 5% de desconto é R${total:.2f}')
