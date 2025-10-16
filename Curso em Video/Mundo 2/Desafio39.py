@@ -12,19 +12,16 @@ anoAtual = datetime.datetime.now().year
 ano = int(input('Qual ano que voce nasceu? : '))
 
 resultado = anoAtual - ano
+anoAlista = ano + 18
+tempoFalta = anoAtual - anoAlista
 
 if resultado == 18:
-    anoAlista = ano + 18
-    tempoFalta = anoAtual - anoAlista
     print(
         f'Voce esta na idade de se alistar que sera em {anoAlista} e o tempo que falta é {tempoFalta} anos')
 elif resultado > 18:
-    anoAlista = ano + 18
-    tempoFalta = anoAtual - anoAlista
     print(
         f'Voce voce ja se alistou que foi no ano {anoAlista} e ja faz {tempoFalta} anos')
 elif resultado < 18:
-    anoAlista = ano + 18
     tempoFalta = anoAlista - anoAtual
     print(
         f'Voce nao se alistou seu ano será {anoAlista} e falta {tempoFalta} anos')
