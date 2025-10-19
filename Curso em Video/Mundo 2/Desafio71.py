@@ -3,7 +3,7 @@
 #OBS: Considere que o caixa possui cedulas de R$50,R$20, R$10 e R$1
 
 print("=" * 30)
-print("        CAIXA ELETRÔNICO")
+print("CAIXA ELETRÔNICO")
 print("=" * 30)
 
 valor = int(input("Qual valor você quer sacar? R$ "))
